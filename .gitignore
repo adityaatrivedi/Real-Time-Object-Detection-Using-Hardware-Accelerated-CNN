@@ -1,0 +1,33 @@
+# Python
+__pycache__/
+*.pyc
+*.pyd
+*.pyo
+.Python
+build/
+dist/
+develop-eggs/
+.eggs/
+*.egg-info/
+.venv/
+venv/
+env/
+.env
+
+# Large binary files that are often generated or too big for Git LFS
+binary_weights_int8/
+binary_weights_minmax/
+binary_weights_final/
+fpga_params/
+*.zip
+*.pt
+
+
+# Output and temporary files
+runs/
+datasets/
+*.jpg
+*.png
+*.bin
+*.log
+*.DS_Store
